@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+/* --- MEJORAS OPCIONALES --- */
+.tarjeta-interactiva {
+  margin-top: 20px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #61dafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(97, 218, 251, 0.2);
+}
+
+.boton-personalizado {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.boton-personalizado:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #61dafb;
+}
